@@ -14,10 +14,10 @@
 				<thingDef>Silver</thingDef>
 				<countRange>750~1200</countRange>
 			</li>
-			<li Class="StockGenerator_SingleDef">
+			<!--<li Class="StockGenerator_SingleDef">
 				<thingDef>DankPyon_Amber</thingDef>
 				<countRange>80~155</countRange>
-			</li>
+			</li>-->
 			<li Class="StockGenerator_SingleDef">
 				<thingDef>Kibble</thingDef>
 				<countRange>150~450</countRange>
@@ -26,10 +26,10 @@
 				<thingDef>Cloth</thingDef>
 				<countRange>100~400</countRange>
 			</li>
-			<li Class="StockGenerator_SingleDef">
+			<!--<li Class="StockGenerator_SingleDef">
 				<thingDef>DankPyon_Linen</thingDef>
 				<countRange>100~400</countRange>
-			</li>
+			</li>-->
 			<li Class="StockGenerator_SingleDef">
 				<thingDef>MedicineHerbal</thingDef>
 				<countRange>0~24</countRange>
@@ -230,12 +230,12 @@
 				<countRange>0~1</countRange>
 			</li>
 			<!--what buy-->
-			<li Class="StockGenerator_BuyTradeTag">
+			<!--<li Class="StockGenerator_BuyTradeTag">
 				<tag>DankPyon_Book</tag>
 			</li>
 			<li Class="StockGenerator_BuyTradeTag">
 				<tag>DankPyon_Amber</tag>
-			</li>
+			</li>-->
 			<li Class="Arcane.StockGenerator_BuyCategory">
 				<category>RF_ArcaneWeapons</category>
 			</li>
@@ -266,9 +266,9 @@
 			<li Class="Arcane.StockGenerator_BuyCategory">
 				<category>RF_ArcaneRings</category>
 			</li>
-			<li Class="Arcane.StockGenerator_BuyCategory">
+			<!--<li Class="Arcane.StockGenerator_BuyCategory">
 				<category>DankPyon_GemStones</category>
-			</li>
+			</li>-->
 		</stockGenerators>
 	</TraderKindDef>
 </Defs>
