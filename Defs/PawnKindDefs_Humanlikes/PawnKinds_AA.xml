@@ -11,7 +11,7 @@
 		<maxGenerationAge>85</maxGenerationAge>
 		<chemicalAddictionChance>0.03</chemicalAddictionChance>
 		<invNutrition>10</invNutrition>
-		<invFoodDef>DankPyon_MealBread</invFoodDef>
+		<invFoodDef>ISA_Bread</invFoodDef>
 		<isFighter>true</isFighter>
 		<techHediffsRequired>
 			<li>DeathAcidifier</li>
@@ -30,13 +30,13 @@
 		<weaponMoney>3000</weaponMoney>
 		<itemQuality>Good</itemQuality>
 		<gearHealthRange>0.2~1.1</gearHealthRange>	
-		<apparelRequired>	
-			<li>Dankpyon_Apparel_Gambeson</li> <!-- OnSkin (neck, torso, shoulders) -->
-			<li>DankPyon_Apparel_Leather_Tunic</li>	<!-- Middle (neck, torso, shoulders) -->
-			<li>DankPyon_Apparel_Trousers</li> <!-- Middle (legs) -->
-			<li>DankPyon_Handwear_GlovesLeather</li> <!-- Middle (hands) -->
-			<li>DankPyon_Footwear_BootsLeather</li> <!-- Middle (feet) -->
-		</apparelRequired>
+		<!--<apparelRequired>	
+			<li>Dankpyon_Apparel_Gambeson</li>
+			<li>DankPyon_Apparel_Leather_Tunic</li>
+			<li>DankPyon_Apparel_Trousers</li>
+			<li>DankPyon_Handwear_GlovesLeather</li>
+			<li>DankPyon_Footwear_BootsLeather</li>
+		</apparelRequired>-->
   	</PawnKindDef>
 
 
@@ -57,24 +57,24 @@
 		<inventoryOptions>
 			<subOptionsTakeAll>
 				<li>
-					<thingDef>DankPyon_MealBread</thingDef>
+					<thingDef>ISA_Bread</thingDef>
 					<countRange>3</countRange>
 				</li>
 				<li>
-					<thingDef>DankPyon_Weapon_PotFire</thingDef>
+					<thingDef>ISA_Weapon_PotFire</thingDef>
 					<countRange>1</countRange>
 				</li>
-				<li>
+				<!--<li>
 					<thingDef>DankPyon_Clay</thingDef>
 					<countRange>5</countRange>
-				</li>
+				</li>-->
 				<li>
-					<thingDef>DankPyon_Coal</thingDef>
+					<thingDef>ISA_Coal</thingDef>
 					<countRange>5</countRange>
 				</li>				
 			</subOptionsTakeAll>
 			<subOptionsChooseOne>
-				<li>
+				<!--<li>
 					<thingDef>DankPyon_Citrine</thingDef>
 					<countRange>5</countRange>
 				</li>
@@ -89,13 +89,13 @@
 				<li>
 					<thingDef>DankPyon_Emerald</thingDef>
 					<countRange>5</countRange>
-				</li>
+				</li>-->
 				<li>
-					<thingDef>DankPyon_SilverOre</thingDef>
+					<thingDef>Silver</thingDef>
 					<countRange>5</countRange>
 				</li>
 				<li>
-					<thingDef>DankPyon_GoldOre</thingDef>
+					<thingDef>Gold</thingDef>
 					<countRange>5</countRange>
 				</li>
 			</subOptionsChooseOne>						
@@ -116,10 +116,10 @@
 		<itemQuality>Good</itemQuality>
 		<gearHealthRange>0.2~1.1</gearHealthRange>	
 		<apparelRequired>	
-			<li>DankPyon_Apparel_Leather_Tunic</li>
+			<!--<li>DankPyon_Apparel_Leather_Tunic</li>
 			<li>DankPyon_Apparel_Trousers</li>
 			<li>DankPyon_Handwear_GlovesLeather</li>
-			<li>DankPyon_Footwear_BootsLeather</li>
+			<li>DankPyon_Footwear_BootsLeather</li>-->
 			<li>Apparel_Cape</li>
 			<li>Apparel_HatHood</li>
 		</apparelRequired>		
@@ -151,7 +151,7 @@
    		 </specificApparelRequirements>
 		<combatPower>20</combatPower>
 		<weaponTags>
-			<li>DankPyon_Pickaxe</li>
+			<!--<li>DankPyon_Pickaxe</li>-->
 		</weaponTags>
 		<skills>
 			<li>
@@ -184,14 +184,14 @@
 				<bodyPartGroup>UpperHead</bodyPartGroup>
 				<apparelLayer>Overhead</apparelLayer>
 				<requiredTag>Ogam_Cloak</requiredTag>
-				<stuff>DankPyon_Linen</stuff>
+				<stuff>Cloth</stuff>
 				<color>(30, 30, 32)</color>
 			</li>
 			<li>
 				<bodyPartGroup>Torso</bodyPartGroup>
-				<apparelLayer>DankPyon_ShellAttachment</apparelLayer>
+				<apparelLayer>ISA_ShellAttachment</apparelLayer>
 				<requiredTag>Ogam_SimpleCapeA</requiredTag>
-				<stuff>DankPyon_Linen</stuff>
+				<stuff>Cloth</stuff>
 				<color>(30, 30, 32)</color>
 			</li>
 		</specificApparelRequirements>
@@ -222,7 +222,7 @@
 				<bodyPartGroup>UpperHead</bodyPartGroup>
 				<apparelLayer>Overhead</apparelLayer>
 				<requiredTag>Ogam_WizzardHatB</requiredTag>
-				<stuff>DankPyon_Linen</stuff>
+				<stuff>Cloth</stuff>
 				<color>(30, 30, 32)</color>
 			</li>
 			<li>
@@ -308,7 +308,7 @@
 				<bodyPartGroup>UpperHead</bodyPartGroup>
 				<apparelLayer>Overhead</apparelLayer>
 				<requiredTag>Ogam_Cloak</requiredTag>
-				<stuff>DankPyon_Linen</stuff>
+				<stuff>Cloth</stuff>
 				<color>(112, 108, 101)</color>
 			</li>
 			<li>
@@ -351,7 +351,7 @@
 				<bodyPartGroup>UpperHead</bodyPartGroup>
 				<apparelLayer>Overhead</apparelLayer>
 				<requiredTag>Ogam_WizzardHatB</requiredTag>
-				<stuff>DankPyon_Linen</stuff>
+				<stuff>Cloth</stuff>
 				<color>(30, 30, 32)</color>
 			</li>
 			<li>
@@ -392,14 +392,14 @@
 				<bodyPartGroup>UpperHead</bodyPartGroup>
 				<apparelLayer>Overhead</apparelLayer>
 				<requiredTag>Ogam_WizzardHatB</requiredTag>
-				<stuff>DankPyon_Linen</stuff>
+				<stuff>Cloth</stuff>
 				<color>(30, 30, 32)</color>
 			</li>
 			<li>
 				<bodyPartGroup>Neck</bodyPartGroup>
-				<apparelLayer>DankPyon_ShellAttachment</apparelLayer>
+				<apparelLayer>ISA_ShellAttachment</apparelLayer>
 				<requiredTag>Ogam_RoyalCapeB</requiredTag>
-				<stuff>DankPyon_Linen</stuff>
+				<stuff>Cloth</stuff>
 				<color>(30, 30, 32)</color>
 			</li>
 		</specificApparelRequirements>	
